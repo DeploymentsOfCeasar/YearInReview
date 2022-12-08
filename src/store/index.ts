@@ -4,14 +4,12 @@ import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
 // project import
 import drawerReducers from './reducers';
-import highlightsReducers from '../pages/dashboard/highlights-reducers'
 
 // ==============================|| REDUX TOOLKIT - MAIN STORE ||============================== //
 
 const store = configureStore({
     reducer: {
         drawer: drawerReducers,
-        highlights: highlightsReducers,
     },
 });
 

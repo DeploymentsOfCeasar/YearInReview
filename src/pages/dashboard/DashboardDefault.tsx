@@ -39,10 +39,16 @@ import {
 } from '@ant-design/icons';
 import {
     default as avatar1,
-    default as avatar2,
-    default as avatar3,
-    default as avatar4,
 } from '../../assets/images/users/avatar-1.jpg';
+import {
+    default as avatar2,
+} from '../../assets/images/users/Vietnam.png';
+import {
+    default as avatar3,
+} from '../../assets/images/users/vamk.png';
+import {
+    default as avatar4,
+} from '../../assets/images/users/robot.jpg';
 
 // models
 import { AMonthState, AQuarterState, AWeekState, AYearState } from '../../models/state';
